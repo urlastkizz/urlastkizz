@@ -7,22 +7,54 @@
 </p>
 
 <p align="center">
+  <a href="#terminal">Terminal</a> ·
   <a href="#about">About</a> ·
   <a href="#toolbox">Toolbox</a> ·
   <a href="#featured-project">Featured project</a> ·
   <a href="https://github.com/urlastkizz?tab=repositories">All repositories</a>
 </p>
 
+## Terminal
+
+A small terminal-style introduction. Expand the command menu below to explore.
+
 ```text
-❯ whoami
-  Luis · @urlastkizz
+┌─ urlastkizz@github ─ ~/portfolio
+│
+└─❯ cat about.txt
+    Luis H. Morais
+    Computer Science student · Brazil
+    Learning by building useful developer tools.
 
-❯ cat focus.txt
-  TypeScript, developer tools, and learning by building.
+❯ cat learning.txt
+  TypeScript & Node.js
+  GitHub API integration
+  Automated testing & CLI design
 
-❯ ls projects/
-  GitMetrics/
+❯ tree projects/
+  projects/
+  └── GitMetrics/
+      ├── profiles       → public users & repositories
+      ├── metrics        → repository & contribution insights
+      └── output         → terminal tables & JSON
+
+❯ cat next.txt
+  Keep improving GitMetrics, one focused change at a time.
 ```
+
+<details>
+<summary><strong>❯ help — open the command menu</strong></summary>
+
+| Command | Destination |
+| --- | --- |
+| `cat about.txt` | [Read about me](#about) |
+| `ls toolbox/` | [Explore my tools](#toolbox) |
+| `cd projects/GitMetrics` | [See the featured project](#featured-project) |
+| `open source` | [Browse GitMetrics on GitHub](https://github.com/urlastkizz/GitMetrics) |
+| `open docs` | [Read the usage guide](https://github.com/urlastkizz/GitMetrics#usage) |
+| `ls projects/` | [Browse all repositories](https://github.com/urlastkizz?tab=repositories) |
+
+</details>
 
 ## About
 
@@ -80,3 +112,4 @@ npx @urlastkizz/gitmetrics repo microsoft/vscode
 <p align="center">
   <sub>Learning by building. Improving one commit at a time.</sub>
 </p>
+
